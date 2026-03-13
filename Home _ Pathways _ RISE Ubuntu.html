@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Pathways | RISE Ubuntu</title>
+  
+  <!-- Meta Keywords -->
+  <meta name="keywords" content="Pathways, RISE Ubuntu, youth education, leadership training, mentorship, Zambia, community development, student programs, skills development, Keejah Mwandu">
+
+  <!-- Favicon – single PNG logo -->
+  <link rel="icon" type="image/png" href="/img/logoright.png">
+
+  <!-- Tailwind + Inter font -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="antialiased text-gray-800"><div class="fixed top-0 left-0 right-0 z-50 px-4 md:px-8 pt-4">
+  <nav id="mainNav" class="max-w-6xl mx-auto rounded-2xl transition-all duration-300 bg-white/30 backdrop-blur-md border border-white/50 shadow-lg">
+    <div class="px-5 lg:px-8 h-16 flex items-center justify-between">
+      <!-- Logos -->
+      <a class="flex items-center gap-2 flex-shrink-0" href="/">
+        <img src="img/mainlogoleft.png" alt="Pathways" class="h-8 w-auto object-contain">
+        <img src="img/logoright.png" alt="RISE Ubuntu" class="h-8 w-auto object-contain">
+      </a>
+
+      <!-- Desktop links -->
+      <div class="hidden lg:flex items-center gap-6">
+        <a class="text-[13px] font-medium transition-colors hover:text-[#f5c518] whitespace-nowrap" href="index.php">Home</a>
+        <a class="text-[13px] font-medium transition-colors hover:text-[#f5c518] whitespace-nowrap" href="about.php">About</a>
+        <a class="text-[13px] font-medium transition-colors hover:text-[#f5c518] whitespace-nowrap" href="programs.php">Programs</a>
+        <a class="text-[13px] font-medium transition-colors hover:text-[#f5c518] whitespace-nowrap" href="updates.php">Updates</a>
+        <a class="text-[13px] font-medium transition-colors hover:text-[#f5c518] whitespace-nowrap" href="apply.php">Apply</a>
+        <a class="text-[13px] font-medium transition-colors hover:text-[#f5c518] whitespace-nowrap" href="support.php">Support</a>
+        <a class="text-[13px] font-medium transition-colors hover:text-[#f5c518] whitespace-nowrap" href="contact.php">Contact</a>
+      </div>
+
+      <!-- Right side buttons -->
+      <div class="flex items-center gap-2 flex-shrink-0">
+        <a href="apply.php" class="btn inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all bg-[#f5c518] text-[#0d1b3e] hover:bg-[#f5c518]/90 font-semibold rounded-full px-5 h-9 text-sm shadow-md">
+          Apply Now
+        </a>
+        <button id="menuToggle" type="button" aria-label="Toggle menu" class="mobile-toggle lg:hidden flex items-center justify-center w-9 h-9 rounded-full border-2 cursor-pointer transition-colors hover:bg-white/10 border-white/50 text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform duration-300" id="chevronIcon">
+            <path d="m6 9 6 6 6-6"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="lg:hidden overflow-hidden bg-white/20 backdrop-blur-md rounded-b-2xl border-t border-white/30 px-5">
+      <div class="flex flex-col py-4 space-y-3">
+        <a class="text-[15px] font-medium hover:text-[#f5c518] transition-colors" href="index.php">Home</a>
+        <a class="text-[15px] font-medium hover:text-[#f5c518] transition-colors" href="about.php">About</a>
+        <a class="text-[15px] font-medium hover:text-[#f5c518] transition-colors" href="programs.php">Programs</a>
+        <a class="text-[15px] font-medium hover:text-[#f5c518] transition-colors" href="updates.php">Updates</a>
+        <a class="text-[15px] font-medium hover:text-[#f5c518] transition-colors" href="apply.php">Apply</a>
+        <a class="text-[15px] font-medium hover:text-[#f5c518] transition-colors" href="support.php">Support</a>
+        <a class="text-[15px] font-medium hover:text-[#f5c518] transition-colors" href="contact.php">Contact</a>
+      </div>
+    </div>
+  </nav>
+</div>
+<main class="min-h-screen">
+
+  <!-- HERO SECTION -->
+  <section class="relative min-h-screen flex items-center justify-center hero-bg-home">
+    <!-- overlays -->
+    <div class="absolute inset-0 z-[5] bg-black/25"></div>
+    <div class="absolute inset-0 z-10 bg-gradient-to-b from-[#0d1b3e]/75 via-[#0d1b3e]/55 to-[#0d1b3e]/80"></div>
+    
+    <div class="relative z-20 max-w-4xl mx-auto px-6 lg:px-8 text-center py-20">
+      <div class="space-y-5">
+        <h1 class="text-5xl md:text-6xl lg:text-7xl font-light tracking-tight text-balance text-white drop-shadow-lg">
+          <span class="block">Education.</span>
+          <span class="block">Community.</span>
+          <span class="block font-semibold text-[#f5c518]">Futures.</span>
+        </h1>
+        <p class="text-lg md:text-xl text-white/75 max-w-xl mx-auto text-balance leading-relaxed">
+          Pathways integrates post-secondary preparation with community-based development to ensure that educational achievement translates into sustained personal and communal advancement.
+        </p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 pt-4">
+          <a href="apply.php" class="inline-flex items-center justify-center gap-2 bg-[#f5c518] text-[#0d1b3e] hover:bg-[#f5c518]/90 font-semibold rounded-full px-7 h-11 text-sm group shadow-lg">
+            Apply Now
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform">
+              <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path>
+            </svg>
+          </a>
+          <a href="support.php" class="inline-flex items-center justify-center gap-2 font-medium rounded-full px-7 h-11 text-sm border-2 border-white/50 text-white bg-white/10 hover:bg-white/20 backdrop-blur-sm">
+            Support Pathways
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS OVERVIEW -->
+  <section id="programs" class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center mb-10">
+        <h2 class="text-3xl md:text-4xl font-light tracking-tight mb-3 text-balance text-[#0d1b3e]">
+          Our <span class="font-semibold text-[#f5c518]" style="-webkit-text-stroke:1px #0d1b3e">Programs</span>
+        </h2>
+        <p class="text-sm text-gray-600 text-balance leading-relaxed">Two interconnected pillars for holistic development</p>
+      </div>
+
+      <!-- Education Pathways -->
+      <div class="mb-8">
+        <div class="flex items-center gap-2 mb-5">
+          <div class="flex items-center justify-center w-8 h-8 rounded-lg bg-[#0d1b3e] text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg>
+          </div>
+          <h3 class="text-lg font-semibold text-[#0d1b3e]">Education Pathways</h3>
+        </div>
+        <div class="grid md:grid-cols-2 gap-4">
+          <!-- FPP card -->
+          <div class="bg-white rounded-xl shadow-sm p-5 border border-gray-200 hover:shadow-xl transition-all duration-300 hover:border-[#f5c518]/60">
+            <div class="space-y-2">
+              <span class="inline-block text-xs font-bold tracking-widest uppercase bg-[#f5c518] text-[#0d1b3e] px-3 py-0.5 rounded-full">FPP</span>
+              <h4 class="text-base font-semibold text-[#0d1b3e]">Future Pathways Program</h4>
+              <p class="text-xs text-gray-600 leading-relaxed">The Future Pathways Program (FPP) is Pathways’ flagship, residential and highly selective 18-month program. It is designed for students who demonstrate strong academic readiness, discipline and capacity to benefit from intensive preparation for higher education.</p>
+            </div>
+          </div>
+          <!-- APP card -->
+          <div class="bg-white rounded-xl shadow-sm p-5 border border-gray-200 hover:shadow-xl transition-all duration-300 hover:border-[#f5c518]/60">
+            <div class="space-y-2">
+              <span class="inline-block text-xs font-bold tracking-widest uppercase bg-[#f5c518] text-[#0d1b3e] px-3 py-0.5 rounded-full">APP</span>
+              <h4 class="text-base font-semibold text-[#0d1b3e]">Access Pathways Program</h4>
+              <p class="text-xs text-gray-600 leading-relaxed">Running concurrently with FPP is the Access Pathways Program (APP), a one-year program designed for students who demonstrate strong potential and alignment with Pathways’ values but are not selected for the resource-intensive FPP.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Community Pathways -->
+      <div class="mb-8">
+        <div class="flex items-center gap-2 mb-5">
+          <div class="flex items-center justify-center w-8 h-8 rounded-lg bg-[#0d1b3e] text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <h3 class="text-lg font-semibold text-[#0d1b3e]">Community Pathways</h3>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- Children Enrichment -->
+          <div class="bg-white rounded-xl shadow-sm p-4 border border-gray-200 hover:shadow-xl transition-all duration-300 hover:border-[#f5c518]/60">
+            <div class="space-y-2">
+              <div class="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-[#0d1b3e]/10 text-[#0d1b3e]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+              </div>
+              <h4 class="text-sm font-semibold text-[#0d1b3e]">Children Enrichment Pathway</h4>
+              <p class="text-xs text-gray-600 leading-relaxed">The Children Enrichment Pathway is designed to support the holistic development of children in the local site community, focusing on early literacy, reading clubs, creative arts, and emotional growth.</p>
+            </div>
+          </div>
+          <!-- Employment -->
+          <div class="bg-white rounded-xl shadow-sm p-4 border border-gray-200 hover:shadow-xl transition-all duration-300 hover:border-[#f5c518]/60">
+            <div class="space-y-2">
+              <div class="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-[#0d1b3e]/10 text-[#0d1b3e]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path><rect width="20" height="14" x="2" y="6" rx="2"></rect></svg>
+              </div>
+              <h4 class="text-sm font-semibold text-[#0d1b3e]">Employment Pathway</h4>
+              <p class="text-xs text-gray-600 leading-relaxed">This includes all salaried staff, managers and general workers directly employed by Pathways. These individuals are essential to the daily functioning of the organisation and the maintenance of its physical site.</p>
+            </div>
+          </div>
+          <!-- Partnerships -->
+          <div class="bg-white rounded-xl shadow-sm p-4 border border-gray-200 hover:shadow-xl transition-all duration-300 hover:border-[#f5c518]/60">
+            <div class="space-y-2">
+              <div class="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-[#0d1b3e]/10 text-[#0d1b3e]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path><path d="M10 6h4"></path><path d="M10 10h4"></path><path d="M10 14h4"></path><path d="M10 18h4"></path></svg>
+              </div>
+              <h4 class="text-sm font-semibold text-[#0d1b3e]">Partnerships Pathway</h4>
+              <p class="text-xs text-gray-600 leading-relaxed">Pathways recognises that sustainable impact requires collaboration. The Partnerships Pathways category governs all formal relationships with external individuals, institutions and organisations that contribute expertise, services, or resources to Pathways.</p>
+            </div>
+          </div>
+          <!-- Small-Scale Enterprises -->
+          <div class="bg-white rounded-xl shadow-sm p-4 border border-gray-200 hover:shadow-xl transition-all duration-300 hover:border-[#f5c518]/60">
+            <div class="space-y-2">
+              <div class="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-[#0d1b3e]/10 text-[#0d1b3e]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5"><path d="M7 20h10"></path><path d="M10 20c5.5-2.5.8-6.4 3-10"></path><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"></path><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"></path></svg>
+              </div>
+              <h4 class="text-sm font-semibold text-[#0d1b3e]">Small-Scale Enterprises Pathway</h4>
+              <p class="text-xs text-gray-600 leading-relaxed">These enterprises are established and owned by Pathways but operated in collaboration with members of the local community. Their purpose is twofold: to provide livelihood opportunities for community members and to generate modest, ethical income streams that support the organisation’s mission.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <a href="programs.php" class="inline-flex items-center justify-center gap-2 bg-[#0d1b3e] text-[#f5c518] hover:bg-[#0d1b3e]/90 rounded-full px-8 h-10 text-sm group">
+          View All Programs
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR FOUNDATION (formerly Impact) -->
+  <section id="foundation" class="py-16 bg-[#0d1b3e]">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <h2 class="text-3xl md:text-4xl font-light tracking-tight mb-3 text-balance text-white">Our <span class="font-semibold text-[#f5c518]">Foundation</span></h2>
+      </div>
+      <!-- Single big card -->
+      <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 text-white max-w-3xl mx-auto">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-[#f5c518]/20 text-[#f5c518]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"></path><path d="M22 10v6"></path><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path></svg>
+          </div>
+          <div>
+            <div class="text-xl font-semibold text-[#f5c518]">Partnership Pathway: Oria Farms</div>
+            <div class="text-3xl font-bold text-white mt-1">ZMW 17,060 Raised</div>
+          </div>
+        </div>
+        <p class="text-white/80 leading-relaxed">
+          We have successfully invested over ZMW 17,000 (> $940) in the Partnership Pathway. This is just the beginning of our journey to empower local change-makers and make Pathways and the Organisation at large self-sufficient.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT'S NEXT - OUR NEXT MILESTONES -->
+  <section id="next" class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <h2 class="text-3xl md:text-4xl font-light tracking-tight mb-3 text-balance text-[#0d1b3e]">Our Next <span class="font-semibold text-[#f5c518]">Milestones</span></h2>
+      </div>
+      <!-- Two-column card -->
+      <div class="bg-white rounded-2xl shadow-xl p-8 max-w-5xl mx-auto border border-gray-200">
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Left: Land Acquisition -->
+          <div>
+            <div class="flex items-center gap-3 mb-4">
+              <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-[#0d1b3e]/10 text-[#0d1b3e]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <h3 class="text-lg font-semibold text-[#0d1b3e]">Scaling Our Future: The Search for a Home</h3>
+            </div>
+            <div class="space-y-3">
+              <div><span class="font-bold">Phase 1: Land Acquisition</span></div>
+              <p class="text-sm text-gray-600"><span class="font-semibold">The Goal:</span> Identifying and acquiring a dedicated physical space to serve as the permanent hub for all Pathways programs.</p>
+              <p class="text-sm text-gray-600"><span class="font-semibold">Current Status:</span> Actively scouting strategic locations that align with our mission of community enrichment and accessibility.</p>
+              <p class="text-sm text-gray-600"><span class="font-semibold">The Vision:</span> A self-sufficient center for local change-makers to gather, train, and launch new enterprises.</p>
+            </div>
+          </div>
+          <!-- Right: Pathway Expansion -->
+          <div>
+            <div class="flex items-center gap-3 mb-4">
+              <div class="flex items-center justify-center w-12 h-12 rounded-xl bg-[#0d1b3e]/10 text-[#0d1b3e]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg>
+              </div>
+              <h3 class="text-lg font-semibold text-[#0d1b3e]">Pathway Expansion: Scaling for Greater Impact</h3>
+            </div>
+            <div class="space-y-3">
+              <p class="text-sm text-gray-600"><span class="font-semibold">Growing the Network:</span> We are actively seeking new strategic partnerships with local businesses and organisations to increase our reach and deepen our community roots.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UPDATES (formerly Stories) -->
+  
+
+  <!-- SUPPORT SECTION -->
+  <section id="support" class="py-16 bg-[#f5c518]/10">
+    <div class="max-w-3xl mx-auto px-6 lg:px-8 text-center">
+      <div class="space-y-5">
+        <div class="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-[#f5c518] text-[#0d1b3e] mx-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path><path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66"></path><path d="m18 15-2-2"></path><path d="m15 18-2-2"></path></svg>
+        </div>
+        <div class="space-y-2">
+          <h2 class="text-3xl md:text-4xl font-light tracking-tight text-balance text-[#0d1b3e]">Support <span class="font-semibold">Pathways</span></h2>
+          <p class="text-sm text-[#0d1b3e]/70 max-w-xl mx-auto text-balance leading-relaxed">Your support helps us reach more young people, fund more programmes, and build a stronger Zambia. Every contribution — big or small — changes a life.</p>
+        </div>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
+          <a href="support.php#donate" class="inline-flex items-center justify-center gap-2 bg-[#0d1b3e] text-[#f5c518] hover:bg-[#0d1b3e]/90 font-semibold rounded-full px-8 h-10 text-sm group shadow-lg">
+            Donate Now
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+          </a>
+          <a href="support.php#partner" class="inline-flex items-center justify-center gap-2 font-medium rounded-full px-8 h-10 text-sm border-2 border-[#0d1b3e] text-[#0d1b3e] bg-transparent hover:bg-[#0d1b3e] hover:text-white transition-all">Become a Partner</a>
+        </div>
+        <p class="text-sm text-[#0d1b3e]/50">Pathways is the flagship initiative of RISE Ubuntu, an emerging social impact organisation currently undergoing formal NGO registration in Zambia.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="bg-[#0d1b3e] border-t border-white/10">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8 py-10">
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+      <!-- col1 -->
+      <div class="space-y-4">
+        <a class="flex items-center gap-2" href="index.php">
+          <img src="https://rise-henna-pi.vercel.app/main%20logo%20left.png" alt="Pathways" class="h-9 w-auto object-contain brightness-0 invert">
+          <img src="https://rise-henna-pi.vercel.app/logo%20right.png" alt="RISE Ubuntu" class="h-9 w-auto object-contain brightness-0 invert">
+        </a>
+        <p class="text-sm text-white/60 leading-relaxed">Pathways is an initiative of RISE Ubuntu, a non-profit organization in Zambia.</p>
+        <a href="mailto:info@pathwaysnow.org" class="text-sm text-[#f5c518]/90 font-medium hover:text-[#f5c518] transition-colors">info@pathwaysnow.org</a>
+        <div class="flex gap-4">
+          <a href="https://facebook.com/share/18EAdnwcKR/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="text-white/50 hover:text-[#f5c518]">
+            <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://instagram.com/rise_pathways/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="text-white/50 hover:text-[#f5c518]">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-5 w-5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+        </div>
+      </div>
+      <!-- col2: Programs -->
+      <div>
+        <h4 class="font-semibold mb-4 text-white">Programs</h4>
+        <ul class="space-y-2 text-sm text-white/60">
+          <li><a href="programs.php" class="hover:text-[#f5c518]">Future Pathways Program (FPP)</a></li>
+          <li><a href="programs.php" class="hover:text-[#f5c518]">Access Pathways Program (APP)</a></li>
+          <li><a href="programs.php" class="hover:text-[#f5c518]">Children Enrichment Pathway</a></li>
+          <li><a href="programs.php" class="hover:text-[#f5c518]">Employment Pathway</a></li>
+          <li><a href="programs.php" class="hover:text-[#f5c518]">Small-scale Enterprises Pathway</a></li>
+          <li><a href="programs.php" class="hover:text-[#f5c518]">Partnerships Pathway</a></li>
+        </ul>
+      </div>
+      <!-- col3: Organisation -->
+      <div>
+        <h4 class="font-semibold mb-4 text-white">Organisation</h4>
+        <ul class="space-y-2 text-sm text-white/60">
+          <li><a href="about.php" class="hover:text-[#f5c518]">About Pathways</a></li>
+          <li><a href="updates.php" class="hover:text-[#f5c518]">Updates</a></li>
+          <li><a href="about.php" class="hover:text-[#f5c518]">Partnerships</a></li>
+        </ul>
+      </div>
+      <!-- col4: Support -->
+      <div>
+        <h4 class="font-semibold mb-4 text-white">Support</h4>
+        <ul class="space-y-2 text-sm text-white/60">
+          <li><a href="support.php#donate" class="hover:text-[#f5c518]">Donate</a></li>
+          <li><a href="support.php#interest" class="hover:text-[#f5c518]">Become a Partner</a></li>
+          <li><a href="contact.php" class="hover:text-[#f5c518]">Contact Us</a></li>
+          <li><a href="/privacy-policy.docx" target="_blank" class="hover:text-[#f5c518]">Privacy Policy</a></li>
+          <li><a href="/terms-of-service.pdf" target="_blank" class="hover:text-[#f5c518]">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- three stacked lines -->
+    <div class="pt-8 border-t border-white/10 flex flex-col items-center gap-1 text-sm text-white/40 text-center">
+      <p>2026 Pathways. All rights reserved.</p>
+      <p>Education. Community. Futures.</p>
+      <p>
+        Website design by 
+        <a href="https://wazingwamugala.onrender.com/" class="text-white/40 hover:text-[#f5c518] transition">Wazingwa Mugala</a> 
+         Development by 
+        <a href="https://keejah-dot.github.io/keejah/" class="text-white/40 hover:text-[#f5c518] transition">Keejah Mwandu</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<!-- Mobile menu toggle script -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
